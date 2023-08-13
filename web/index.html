@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    Fore more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+  -->
+  <base href="/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Reflex - NEET PYQs">
+
+  <style>
+    .loading {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+    }
+    
+    .loader {
+      border: 16px solid #f3f3f3;
+      border-radius: 50%;
+      border: 15px solid ;
+      border-top: 16px solid blue;
+      border-right: 16px solid white;
+      border-bottom: 16px solid blue;
+      border-left: 16px solid white;
+      width: 120px;
+      height: 120px;
+      -webkit-animation: spin 2s linear infinite;
+      animation: spin 2s linear infinite;
+    }
+    
+    @-webkit-keyframes spin {
+      0% {
+        -webkit-transform: rotate(0deg);
+      }
+      100% {
+        -webkit-transform: rotate(360deg);
+      }
+    }
+    
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  </style>
+
+  
+
+  <!-- Favicon -->
+  <link rel="icon" href="ic_launcher.png" sizes="any"/>
+  
+
+  <!-- Open Graph & SEO tags -->
+  <meta property="og:title" content="Reflex - NEET PYQs helps NEET 2024 and 2025 aspirants practice and prepare effectively by focusing on PYQs. " />
+  <meta property="og:description" content="Reflex - NEET PYQs helps NEET 2024 and 2025 aspirants practice and prepare effectively by focusing on PYQs. PYQs are the best resources to develop right aptitude and temperament to excel in the actual exam." />
+  <meta property="og:image" content="/assets/assets/images/ic_launcher.png" /> 
+  <meta name="twitter:title" content="Reflex - NEET PYQs helps NEET 2024 and 2025 aspirants practice and prepare effectively by focusing on PYQs. " />
+  <meta name="twitter:description" content="Reflex - NEET PYQs helps NEET 2024 and 2025 aspirants practice and prepare effectively by focusing on PYQs. PYQs are the best resources to develop right aptitude and temperament to excel in the actual exam." />
+  <meta name="twitter:image" content="/assets/assets/images/ic_launcher.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <title> Reflex - NEET PYQs helps NEET 2024 and 2025 aspirants practice and prepare effectively by focusing on PYQs.  </title>
+  <meta name="description" content="Reflex - NEET PYQs helps NEET 2024 and 2025 aspirants practice and prepare effectively by focusing on PYQs. PYQs are the best resources to develop right aptitude and temperament to excel in the actual exam." />
+    
+
+  <!-- Status Bar color in Safari browser (iOS) and PWA -->
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f1f5f9">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)"  content="#1a1f24">
+
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <!-- This script installs service_worker.js to provide PWA functionality to
+       application. For more information, see:
+       https://developers.google.com/web/fundamentals/primers/service-workers -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('flutter-first-frame', function () {
+        navigator.serviceWorker.register('flutter_service_worker.js');
+      });
+    }
+    
+  </script>
+  
+    <script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@2.12.313/build/pdf.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    pdfjsLib.GlobalWorkerOptions.workerSrc = "https://cdn.jsdelivr.net/npm/pdfjs-dist@2.12.313/build/pdf.worker.min.js";
+    pdfRenderOptions = {
+      cMapUrl: 'https://cdn.jsdelivr.net/npm/pdfjs-dist@2.12.313/cmaps/',
+      cMapPacked: true,
+    }
+  </script>
+        
+  
+  
+  <script src="main.dart.js" type="application/javascript"></script>
+</body>
+</html>

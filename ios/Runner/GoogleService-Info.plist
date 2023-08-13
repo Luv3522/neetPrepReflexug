@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>872539788119-68h8utsf7otja2gik9gckn17hev4maou.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.872539788119-68h8utsf7otja2gik9gckn17hev4maou</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>872539788119-7k4s474terevmjq068fqthtod2nnkce3.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAWyho2TQ-ole1X3aQstmwSYoQeMl-4Smg</string>
+	<key>GCM_SENDER_ID</key>
+	<string>872539788119</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.gooded.infinity</string>
+	<key>PROJECT_ID</key>
+	<string>neetprep-infinity</string>
+	<key>STORAGE_BUCKET</key>
+	<string>neetprep-infinity.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:872539788119:ios:096bd8a9849a9c2878a412</string>
+</dict>
+</plist>

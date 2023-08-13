@@ -1,0 +1,70 @@
+{
+  "project_info": {
+    "project_number": "872539788119",
+    "project_id": "neetprep-infinity",
+    "storage_bucket": "neetprep-infinity.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:872539788119:android:f600dacff01b187078a412",
+        "android_client_info": {
+          "package_name": "com.gooded.infinity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "872539788119-7k4s474terevmjq068fqthtod2nnkce3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gooded.infinity",
+            "certificate_hash": "8d85deb29f16c3f41a94f07bc473afde1180e815"
+          }
+        },
+        {
+          "client_id": "872539788119-92579hu8pgfvfrntcv2thq99hc5akp0q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gooded.infinity",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "872539788119-ov3kpv34n2mpb4bog0dqal7tg3jfa5mk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gooded.infinity",
+            "certificate_hash": "4b83c603f8e7a11abe67d488e8ce8abb3980c8d5"
+          }
+        },
+        {
+          "client_id": "872539788119-m8vhbkogmqlo9q1m794lsulerr0g71c7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSLW7wI7mC1q0X-cWYIwju6boOuphayb0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "872539788119-m8vhbkogmqlo9q1m794lsulerr0g71c7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "872539788119-68h8utsf7otja2gik9gckn17hev4maou.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.gooded.infinity"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
