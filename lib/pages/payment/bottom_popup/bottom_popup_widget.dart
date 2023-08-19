@@ -431,6 +431,7 @@ class _BottomPopupWidgetState extends State<BottomPopupWidget> {
                                                     10.0, 11.0, 8.0, 12.0),
                                             hidesUnderline: true,
                                             isSearchable: false,
+                                            isMultiSelect: false,
                                           ),
                                         ),
                                         Expanded(

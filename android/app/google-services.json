@@ -14,6 +14,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "872539788119-6pu8bnmmeages29pv8mn6ens49skonjf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gooded.infinity",
+            "certificate_hash": "01931112ea1f27837fe6d1b6adeff611c92d2f4b"
+          }
+        },
+        {
           "client_id": "872539788119-7k4s474terevmjq068fqthtod2nnkce3.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
@@ -35,6 +43,14 @@
           "android_info": {
             "package_name": "com.gooded.infinity",
             "certificate_hash": "4b83c603f8e7a11abe67d488e8ce8abb3980c8d5"
+          }
+        },
+        {
+          "client_id": "872539788119-tn6rs41eogt8l6950g870832ci9nmjqc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gooded.infinity",
+            "certificate_hash": "f1ba443d61c814b5c1d8dd779a9a8e4c6ffff4ba"
           }
         },
         {
